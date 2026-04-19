@@ -1,0 +1,18 @@
+INFO  2026-Apr-19 23:04:00  setUpBrowser :25 - Launching CHROME browser:
+INFO  2026-Apr-19 23:04:05  setUpBrowser :32 - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-19 23:04:05  verifyAccountRegistration :13 - Test case: Register to account as a new user! 
+INFO  2026-Apr-19 23:04:05  verifyAccountRegistration :16 - Navigated to Home page: 
+INFO  2026-Apr-19 23:04:05  clickOnMyAccount :21 - Click MyAccount: [[ChromeDriver: chrome on windows (80e44184d2d30380938043ad6d67a933)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-19 23:04:06  clickOnRegisterLink :26 - Click Register link: [[ChromeDriver: chrome on windows (80e44184d2d30380938043ad6d67a933)] -> xpath: //a[normalize-space() = 'Register']]
+INFO  2026-Apr-19 23:04:06  verifyAccountRegistration :20 - Navigated to Account Register Page:
+INFO  2026-Apr-19 23:04:06  setFirstName :49 - Entered FirstName: [[ChromeDriver: chrome on windows (80e44184d2d30380938043ad6d67a933)] -> id: input-firstname]
+INFO  2026-Apr-19 23:04:06  setLastName :54 - Entered LastName: [[ChromeDriver: chrome on windows (80e44184d2d30380938043ad6d67a933)] -> name: lastname]
+INFO  2026-Apr-19 23:04:07  setEmail :59 - Entered email: [[ChromeDriver: chrome on windows (80e44184d2d30380938043ad6d67a933)] -> id: input-email]
+INFO  2026-Apr-19 23:04:07  setTelephoneNumber :64 - Entered telephoneNumber: [[ChromeDriver: chrome on windows (80e44184d2d30380938043ad6d67a933)] -> xpath: //input[@type= 'tel']]
+INFO  2026-Apr-19 23:04:07  setPassword :69 - Entered password: [[ChromeDriver: chrome on windows (80e44184d2d30380938043ad6d67a933)] -> xpath: //input[@placeholder= 'Password']]
+INFO  2026-Apr-19 23:04:07  setPasswordConfirm :74 - Entered passwordConfirm: [[ChromeDriver: chrome on windows (80e44184d2d30380938043ad6d67a933)] -> css selector: input#input-confirm]
+INFO  2026-Apr-19 23:04:07  selectPrivacyPolicy :100 - Checked Privacy policy: [[ChromeDriver: chrome on windows (80e44184d2d30380938043ad6d67a933)] -> id: input-firstname]
+INFO  2026-Apr-19 23:04:24  clickContinue :106 - Click Continue button: Proxy element for: DefaultElementLocator 'By.id: input-firstname'
+INFO  2026-Apr-19 23:04:24  getMessage :112 - Fetching response message: 
+INFO  2026-Apr-19 23:04:24  verifyAccountRegistration :38 - Created new account with username: Tim2
+INFO  2026-Apr-19 23:04:24  tearDown :37 - Closing the browser
