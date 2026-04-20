@@ -4,11 +4,8 @@
     <test verbose="2" preserve-order="true"
           name="AccountRegisterTest.java">
         <classes>
-            <class name="org.opencart.testcases.AccountRegisterTest">
-                <methods>
-                    <include name="verifyAccountRegistration"/>
-                </methods>
-            </class>
+            <class name="org.opencart.testcases.AccountRegisterTest"/>
+            <class name="org.opencart.testcases.LogInTest"/>
         </classes>
     </test>
 </suite>

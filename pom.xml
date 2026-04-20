@@ -22,7 +22,6 @@
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>4.43.0</version>
-      <scope>compile</scope>
     </dependency>
 
     <!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
@@ -30,7 +29,6 @@
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
       <version>7.12.0</version>
-      <scope>test</scope>
     </dependency>
 
     <!-- Source: https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
@@ -38,7 +36,6 @@
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
       <version>2.25.4</version>
-      <scope>compile</scope>
     </dependency>
 
     <!-- Source: https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
@@ -46,7 +43,6 @@
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
       <version>2.25.4</version>
-      <scope>compile</scope>
     </dependency>
 
     <!-- Source: https://mvnrepository.com/artifact/commons-io/commons-io -->
@@ -54,7 +50,6 @@
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.21.0</version>
-      <scope>compile</scope>
     </dependency>
 
     <!-- Source: https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
@@ -62,7 +57,6 @@
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.20.0</version>
-      <scope>compile</scope>
     </dependency>
 
     <!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi -->
@@ -70,7 +64,6 @@
       <groupId>org.apache.poi</groupId>
       <artifactId>poi</artifactId>
       <version>5.5.1</version>
-      <scope>compile</scope>
     </dependency>
 
     <!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
@@ -78,7 +71,6 @@
       <groupId>org.apache.poi</groupId>
       <artifactId>poi-ooxml</artifactId>
       <version>5.5.1</version>
-      <scope>compile</scope>
     </dependency>
 
     <!-- Source: https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
@@ -86,7 +78,6 @@
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-slf4j-impl</artifactId>
       <version>2.25.4</version>
-      <scope>compile</scope>
     </dependency>
 
     <!-- Source: https://mvnrepository.com/artifact/com.aventstack/extentreports -->
@@ -94,7 +85,6 @@
       <groupId>com.aventstack</groupId>
       <artifactId>extentreports</artifactId>
       <version>5.1.2</version>
-      <scope>compile</scope>
     </dependency>
 
   </dependencies>

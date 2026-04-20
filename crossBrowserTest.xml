@@ -5,11 +5,8 @@
         <parameter name="os" value="windows"/>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="org.opencart.testcases.AccountRegisterTest">
-                <methods>
-                    <include name="verifyAccountRegistration"/>
-                </methods>
-            </class>
+            <class name="org.opencart.testcases.AccountRegisterTest"/>
+            <class name="org.opencart.testcases.LogInTest"/>
         </classes>
     </test>
 
@@ -17,11 +14,8 @@
         <parameter name="os" value="windows"/>
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="org.opencart.testcases.AccountRegisterTest">
-                <methods>
-                    <include name="verifyAccountRegistration"/>
-                </methods>
-            </class>
+            <class name="org.opencart.testcases.AccountRegisterTest"/>
+            <class name="org.opencart.testcases.LogInTest"/>
         </classes>
     </test>
 
@@ -29,11 +23,8 @@
         <parameter name="os" value="windows"/>
         <parameter name="browser" value="edge"/>
         <classes>
-            <class name="org.opencart.testcases.AccountRegisterTest">
-                <methods>
-                    <include name="verifyAccountRegistration"/>
-                </methods>
-            </class>
+            <class name="org.opencart.testcases.AccountRegisterTest"/>
+            <class name="org.opencart.testcases.LogInTest"/>
         </classes>
     </test>
 </suite>

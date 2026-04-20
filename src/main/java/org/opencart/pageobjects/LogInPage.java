@@ -1,5 +1,6 @@
 package org.opencart.pageobjects;
 
+import org.opencart.utilities.WaitUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -22,6 +23,9 @@ public class LogInPage extends BasePage{
     @FindBy(xpath = "//input[@type='submit']")
     private WebElement loginButton;
 
+    @FindBy(xpath = "//div[@id='account-login']//div[contains(@class,'alert-danger')]")
+    private WebElement errorMessageHeader;
+
     public void setEmail(String email){
         log.info("username(email): " + email);
         emailTextField.sendKeys(email);
@@ -29,7 +33,7 @@ public class LogInPage extends BasePage{
 
     public void setPassword(String password){
         log.info("Password: " + password);
-        emailTextField.sendKeys(password);
+        passwordTextField.sendKeys(password);
     }
 
     public void clickOnForgottenPassword(){
@@ -40,6 +44,17 @@ public class LogInPage extends BasePage{
     public void clickLogin(){
         log.info("click login button "+ loginButton);
         loginButton.click();
+    }
+
+    public String getErrorMessage(){
+        try {
+            new WaitUtils(driver).waitForPageLoad();
+            log.info("Fetching response message: ");
+            return errorMessageHeader.getText();
+        } catch (Exception e){
+            log.error("Failed to fetch text message: ");
+            return e.getMessage();
+        }
     }
 
 }
