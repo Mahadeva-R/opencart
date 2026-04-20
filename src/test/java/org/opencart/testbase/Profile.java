@@ -1,10 +1,5 @@
 package org.opencart.testbase;
 
-import lombok.NonNull;
-import org.apache.logging.log4j.Logger;
-import org.opencart.utilities.DriverFactory;
-import org.opencart.utilities.LoggerSingleton;
-
 import java.util.Properties;
 
 public class Profile {
@@ -16,7 +11,7 @@ public class Profile {
         loadPropertyFile();
     }
 
-    private Profile( ) {
+    private Profile() {
     }
 
     public static Profile getProfileInstance() {
@@ -49,5 +44,13 @@ public class Profile {
 
     public String getOs() {
         return properties.getProperty("os");
+    }
+
+    public String getLoginEmailId(){
+        return properties.getProperty("email");
+    }
+
+    public String getPassword(){
+        return properties.getProperty("password");
     }
 }

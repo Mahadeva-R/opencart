@@ -46,32 +46,32 @@ public class AccountRegisterPage extends BasePage{
 
     public void setFirstName(String firstName){
         firstNameTextField.sendKeys(firstName);
-        log.info("Entered FirstName: "+ firstNameTextField);
+        log.info("FirstName: "+ firstName);
     }
 
     public void setLastName(String lastName){
         lastNameTextField.sendKeys(lastName);
-        log.info("Entered LastName: "+ lastNameTextField);
+        log.info("LastName: "+ lastName);
     }
 
     public void setEmail(String email){
         emailTextField.sendKeys(email);
-        log.info("Entered email: "+ emailTextField);
+        log.info("email: "+ email);
     }
 
     public void setTelephoneNumber(String telephoneNumber){
         telephoneTextField.sendKeys(telephoneNumber);
-        log.info("Entered telephoneNumber: "+ telephoneTextField);
+        log.info("telephone Number: "+ telephoneNumber);
     }
 
     public void setPassword(String password){
         passwordTextField.sendKeys(password);
-        log.info("Entered password: "+ passwordTextField);
+        log.info("password: "+ password);
     }
 
     public void setPasswordConfirm(String passwordConfirm){
         passwordConfirmTextField.sendKeys(passwordConfirm);
-        log.info("Entered passwordConfirm: "+ passwordConfirmTextField);
+        log.info("Confirm Password: "+ passwordConfirm);
     }
 
     public void selectSubscribeRadioButton(String option){
@@ -90,14 +90,14 @@ public class AccountRegisterPage extends BasePage{
 
         if (!radio.isSelected()) {
             radio.click();
-            log.info("Select Subscribe radio button: "+ firstNameTextField);
+            log.info("Select Subscribe radio button: "+ option);
         }
     }
 
     public void selectPrivacyPolicy(){
         if(!privacyPolicyCheckbox.isSelected()){
             privacyPolicyCheckbox.click();
-            log.info("Checked Privacy policy: "+ firstNameTextField);
+            log.info("select Privacy policy: "+ firstNameTextField);
         }
     }
 

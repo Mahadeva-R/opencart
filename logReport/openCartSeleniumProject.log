@@ -202,3 +202,14 @@ INFO  2026-Apr-20 11:30:17  clickContinue : - Click Continue button: Proxy eleme
 INFO  2026-Apr-20 11:30:17  getMessage : - Fetching response message: 
 INFO  2026-Apr-20 11:30:18  verifyAccountRegistration : - Created new account with username: Tim2
 INFO  2026-Apr-20 11:30:18  tearDown : - Closing the browser
+INFO  2026-Apr-20 14:32:46  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 14:32:46  initDriver : - Launching browser: chrome
+INFO  2026-Apr-20 14:32:50  setUpBrowser : - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-20 14:32:50  verifyLogin : - Login test case: 
+INFO  2026-Apr-20 14:32:50  clickOnMyAccount : - Click MyAccount: [[ChromeDriver: chrome on windows (2bc1b908f205fe83df8cac1c8253b329)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-20 14:32:51  clickLogin : - Click on Login : [[ChromeDriver: chrome on windows (2bc1b908f205fe83df8cac1c8253b329)] -> xpath: //a[text()='Login']]
+INFO  2026-Apr-20 14:32:51  verifyLogin : - logging into account: 
+INFO  2026-Apr-20 14:32:51  setEmail : - username(email): adminopencart@gmail.com
+INFO  2026-Apr-20 14:32:51  setPassword : - Password: admin@123
+INFO  2026-Apr-20 14:32:51  clickLogin : - click login button [[ChromeDriver: chrome on windows (2bc1b908f205fe83df8cac1c8253b329)] -> xpath: //input[@type='submit']]
+INFO  2026-Apr-20 14:32:52  tearDown : - Closing the browser

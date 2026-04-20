@@ -16,12 +16,11 @@ public class OpenCartTestBase {
 
     protected WebDriver driver;
     protected Logger log = LoggerSingleton.getLoggerInstance();
-    private Profile profile;
+    protected Profile profile = getProfileInstance();
 
     @BeforeClass
     @Parameters({"os", "browser"})
     public void setUpBrowser(@Optional String os, @Optional String browser) {
-        profile = getProfileInstance();
 
         // Read from properties if not provided
         if (browser == null || browser.isEmpty()) {
