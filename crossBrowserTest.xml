@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OpenCart Parallel Test Suite" thread-count="3" parallel="tests">
+    <test verbose="2" name="AccountRegisterTest Chrome">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="org.opencart.testcases.AccountRegisterTest">
+                <methods>
+                    <include name="verifyAccountRegistration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" name="AccountRegisterTest FireFox">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="org.opencart.testcases.AccountRegisterTest">
+                <methods>
+                    <include name="verifyAccountRegistration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" name="AccountRegisterTest Edge">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="org.opencart.testcases.AccountRegisterTest">
+                <methods>
+                    <include name="verifyAccountRegistration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

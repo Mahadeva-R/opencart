@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class AccountRegisterTest extends OpenCartTestBase {
 
     @Test
-    public void verifyAccountRegistration(){
+    public void verifyAccountRegistration() {
         log.info("Test case: Register to account as a new user! ");
 
         HomePage homePage = new HomePage(driver);
@@ -20,16 +20,16 @@ public class AccountRegisterTest extends OpenCartTestBase {
         log.info("Navigated to Account Register Page:");
         AccountRegisterPage registerPage = new AccountRegisterPage(driver);
         try {
-            registerPage.setFirstName("Tim25");
-            registerPage.setLastName("David");
-            registerPage.setEmail("timDavid215@gmail.com");
-            registerPage.setTelephoneNumber("8614628911");
-            registerPage.setPassword("tim@123");
-            registerPage.setPasswordConfirm("tim@123");
+            registerPage.setFirstName(randomString().toLowerCase());
+            registerPage.setLastName(randomString().toLowerCase());
+            registerPage.setEmail(randomAlphaNumeric().toLowerCase() + "@gmail.com");
+            registerPage.setTelephoneNumber(randomNumber());
+            registerPage.setPassword("password@123");
+            registerPage.setPasswordConfirm("password@123");
             registerPage.selectSubscribeRadioButton("no");
             registerPage.selectPrivacyPolicy();
             registerPage.clickContinue();
-        } catch (Exception e ){
+        } catch (Exception e) {
             log.error("Failed to Create an account");
             e.printStackTrace();
         }

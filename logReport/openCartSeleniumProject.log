@@ -16,3 +16,189 @@ INFO  2026-Apr-19 23:04:24  clickContinue :106 - Click Continue button: Proxy el
 INFO  2026-Apr-19 23:04:24  getMessage :112 - Fetching response message: 
 INFO  2026-Apr-19 23:04:24  verifyAccountRegistration :38 - Created new account with username: Tim2
 INFO  2026-Apr-19 23:04:24  tearDown :37 - Closing the browser
+INFO  2026-Apr-19 23:14:04  setUpBrowser :25 - Launching CHROME browser:
+INFO  2026-Apr-19 23:14:11  setUpBrowser :32 - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-19 23:14:11  verifyAccountRegistration :13 - Test case: Register to account as a new user! 
+INFO  2026-Apr-19 23:14:11  verifyAccountRegistration :16 - Navigated to Home page: 
+INFO  2026-Apr-19 23:14:11  clickOnMyAccount :21 - Click MyAccount: [[ChromeDriver: chrome on windows (9c03e0f24483e09f85c9a110345dd196)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-19 23:14:12  clickOnRegisterLink :26 - Click Register link: [[ChromeDriver: chrome on windows (9c03e0f24483e09f85c9a110345dd196)] -> xpath: //a[normalize-space() = 'Register']]
+INFO  2026-Apr-19 23:14:13  verifyAccountRegistration :20 - Navigated to Account Register Page:
+INFO  2026-Apr-19 23:14:14  setFirstName :49 - Entered FirstName: [[ChromeDriver: chrome on windows (9c03e0f24483e09f85c9a110345dd196)] -> id: input-firstname]
+INFO  2026-Apr-19 23:14:14  setLastName :54 - Entered LastName: [[ChromeDriver: chrome on windows (9c03e0f24483e09f85c9a110345dd196)] -> name: lastname]
+INFO  2026-Apr-19 23:14:15  setEmail :59 - Entered email: [[ChromeDriver: chrome on windows (9c03e0f24483e09f85c9a110345dd196)] -> id: input-email]
+INFO  2026-Apr-19 23:14:15  setTelephoneNumber :64 - Entered telephoneNumber: [[ChromeDriver: chrome on windows (9c03e0f24483e09f85c9a110345dd196)] -> xpath: //input[@type= 'tel']]
+INFO  2026-Apr-19 23:14:16  setPassword :69 - Entered password: [[ChromeDriver: chrome on windows (9c03e0f24483e09f85c9a110345dd196)] -> xpath: //input[@placeholder= 'Password']]
+INFO  2026-Apr-19 23:14:16  setPasswordConfirm :74 - Entered passwordConfirm: [[ChromeDriver: chrome on windows (9c03e0f24483e09f85c9a110345dd196)] -> css selector: input#input-confirm]
+INFO  2026-Apr-19 23:14:16  selectPrivacyPolicy :100 - Checked Privacy policy: [[ChromeDriver: chrome on windows (9c03e0f24483e09f85c9a110345dd196)] -> id: input-firstname]
+INFO  2026-Apr-19 23:14:17  clickContinue :106 - Click Continue button: [[ChromeDriver: chrome on windows (9c03e0f24483e09f85c9a110345dd196)] -> id: input-firstname]
+INFO  2026-Apr-19 23:14:17  getMessage :112 - Fetching response message: 
+INFO  2026-Apr-19 23:14:17  tearDown :37 - Closing the browser
+INFO  2026-Apr-19 23:52:12  initDriver : - Running on OS: windows
+INFO  2026-Apr-19 23:52:12  initDriver : - Launching browser: chrome
+INFO  2026-Apr-19 23:52:17  setUpBrowser : - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-19 23:52:17  verifyAccountRegistration : - Test case: Register to account as a new user! 
+INFO  2026-Apr-19 23:52:17  verifyAccountRegistration : - Navigated to Home page: 
+INFO  2026-Apr-19 23:52:17  clickOnMyAccount : - Click MyAccount: [[ChromeDriver: chrome on windows (09f80fb1617af68d929881db9fe31ea9)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-19 23:52:18  clickOnRegisterLink : - Click Register link: [[ChromeDriver: chrome on windows (09f80fb1617af68d929881db9fe31ea9)] -> xpath: //a[normalize-space() = 'Register']]
+INFO  2026-Apr-19 23:52:19  verifyAccountRegistration : - Navigated to Account Register Page:
+INFO  2026-Apr-19 23:52:19  setFirstName : - Entered FirstName: [[ChromeDriver: chrome on windows (09f80fb1617af68d929881db9fe31ea9)] -> id: input-firstname]
+INFO  2026-Apr-19 23:52:19  setLastName : - Entered LastName: [[ChromeDriver: chrome on windows (09f80fb1617af68d929881db9fe31ea9)] -> name: lastname]
+INFO  2026-Apr-19 23:52:19  setEmail : - Entered email: [[ChromeDriver: chrome on windows (09f80fb1617af68d929881db9fe31ea9)] -> id: input-email]
+INFO  2026-Apr-19 23:52:20  setTelephoneNumber : - Entered telephoneNumber: [[ChromeDriver: chrome on windows (09f80fb1617af68d929881db9fe31ea9)] -> xpath: //input[@type= 'tel']]
+INFO  2026-Apr-19 23:52:20  setPassword : - Entered password: [[ChromeDriver: chrome on windows (09f80fb1617af68d929881db9fe31ea9)] -> xpath: //input[@placeholder= 'Password']]
+INFO  2026-Apr-19 23:52:20  setPasswordConfirm : - Entered passwordConfirm: [[ChromeDriver: chrome on windows (09f80fb1617af68d929881db9fe31ea9)] -> css selector: input#input-confirm]
+INFO  2026-Apr-19 23:52:20  selectPrivacyPolicy : - Checked Privacy policy: [[ChromeDriver: chrome on windows (09f80fb1617af68d929881db9fe31ea9)] -> id: input-firstname]
+INFO  2026-Apr-19 23:52:21  clickContinue : - Click Continue button: [[ChromeDriver: chrome on windows (09f80fb1617af68d929881db9fe31ea9)] -> id: input-firstname]
+INFO  2026-Apr-19 23:52:21  getMessage : - Fetching response message: 
+INFO  2026-Apr-19 23:52:21  tearDown : - Closing the browser
+INFO  2026-Apr-19 23:52:23  initDriver : - Running on OS: windows
+INFO  2026-Apr-19 23:52:23  initDriver : - Launching browser: firefox
+INFO  2026-Apr-19 23:52:38  setUpBrowser : - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-19 23:52:38  verifyAccountRegistration : - Test case: Register to account as a new user! 
+INFO  2026-Apr-19 23:52:38  verifyAccountRegistration : - Navigated to Home page: 
+INFO  2026-Apr-19 23:52:39  clickOnMyAccount : - Click MyAccount: [[FirefoxDriver: firefox on windows (0edc3253-6ab1-4322-bbd3-be9a9dc26a2c)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-19 23:52:39  clickOnRegisterLink : - Click Register link: [[FirefoxDriver: firefox on windows (0edc3253-6ab1-4322-bbd3-be9a9dc26a2c)] -> xpath: //a[normalize-space() = 'Register']]
+INFO  2026-Apr-19 23:52:40  verifyAccountRegistration : - Navigated to Account Register Page:
+INFO  2026-Apr-19 23:52:40  setFirstName : - Entered FirstName: [[FirefoxDriver: firefox on windows (0edc3253-6ab1-4322-bbd3-be9a9dc26a2c)] -> id: input-firstname]
+INFO  2026-Apr-19 23:52:40  setLastName : - Entered LastName: [[FirefoxDriver: firefox on windows (0edc3253-6ab1-4322-bbd3-be9a9dc26a2c)] -> name: lastname]
+INFO  2026-Apr-19 23:52:40  setEmail : - Entered email: [[FirefoxDriver: firefox on windows (0edc3253-6ab1-4322-bbd3-be9a9dc26a2c)] -> id: input-email]
+INFO  2026-Apr-19 23:52:40  setTelephoneNumber : - Entered telephoneNumber: [[FirefoxDriver: firefox on windows (0edc3253-6ab1-4322-bbd3-be9a9dc26a2c)] -> xpath: //input[@type= 'tel']]
+INFO  2026-Apr-19 23:52:40  setPassword : - Entered password: [[FirefoxDriver: firefox on windows (0edc3253-6ab1-4322-bbd3-be9a9dc26a2c)] -> xpath: //input[@placeholder= 'Password']]
+INFO  2026-Apr-19 23:52:40  setPasswordConfirm : - Entered passwordConfirm: [[FirefoxDriver: firefox on windows (0edc3253-6ab1-4322-bbd3-be9a9dc26a2c)] -> css selector: input#input-confirm]
+INFO  2026-Apr-19 23:52:40  selectPrivacyPolicy : - Checked Privacy policy: [[FirefoxDriver: firefox on windows (0edc3253-6ab1-4322-bbd3-be9a9dc26a2c)] -> id: input-firstname]
+INFO  2026-Apr-19 23:52:41  clickContinue : - Click Continue button: [[FirefoxDriver: firefox on windows (0edc3253-6ab1-4322-bbd3-be9a9dc26a2c)] -> id: input-firstname]
+INFO  2026-Apr-19 23:52:41  getMessage : - Fetching response message: 
+INFO  2026-Apr-19 23:52:41  tearDown : - Closing the browser
+INFO  2026-Apr-19 23:52:43  initDriver : - Running on OS: windows
+INFO  2026-Apr-19 23:52:43  initDriver : - Launching browser: edge
+INFO  2026-Apr-19 23:52:51  setUpBrowser : - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-19 23:52:51  verifyAccountRegistration : - Test case: Register to account as a new user! 
+INFO  2026-Apr-19 23:52:51  verifyAccountRegistration : - Navigated to Home page: 
+INFO  2026-Apr-19 23:52:51  clickOnMyAccount : - Click MyAccount: [[EdgeDriver: MicrosoftEdge on windows (2655cebd07553ec23a2fc05e8413ad96)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-19 23:52:51  clickOnRegisterLink : - Click Register link: [[EdgeDriver: MicrosoftEdge on windows (2655cebd07553ec23a2fc05e8413ad96)] -> xpath: //a[normalize-space() = 'Register']]
+INFO  2026-Apr-19 23:52:52  verifyAccountRegistration : - Navigated to Account Register Page:
+INFO  2026-Apr-19 23:52:53  setFirstName : - Entered FirstName: [[EdgeDriver: MicrosoftEdge on windows (2655cebd07553ec23a2fc05e8413ad96)] -> id: input-firstname]
+INFO  2026-Apr-19 23:52:53  setLastName : - Entered LastName: [[EdgeDriver: MicrosoftEdge on windows (2655cebd07553ec23a2fc05e8413ad96)] -> name: lastname]
+INFO  2026-Apr-19 23:52:53  setEmail : - Entered email: [[EdgeDriver: MicrosoftEdge on windows (2655cebd07553ec23a2fc05e8413ad96)] -> id: input-email]
+INFO  2026-Apr-19 23:52:54  setTelephoneNumber : - Entered telephoneNumber: [[EdgeDriver: MicrosoftEdge on windows (2655cebd07553ec23a2fc05e8413ad96)] -> xpath: //input[@type= 'tel']]
+INFO  2026-Apr-19 23:52:54  setPassword : - Entered password: [[EdgeDriver: MicrosoftEdge on windows (2655cebd07553ec23a2fc05e8413ad96)] -> xpath: //input[@placeholder= 'Password']]
+INFO  2026-Apr-19 23:52:55  setPasswordConfirm : - Entered passwordConfirm: [[EdgeDriver: MicrosoftEdge on windows (2655cebd07553ec23a2fc05e8413ad96)] -> css selector: input#input-confirm]
+INFO  2026-Apr-19 23:52:55  selectPrivacyPolicy : - Checked Privacy policy: [[EdgeDriver: MicrosoftEdge on windows (2655cebd07553ec23a2fc05e8413ad96)] -> id: input-firstname]
+INFO  2026-Apr-19 23:52:56  clickContinue : - Click Continue button: [[EdgeDriver: MicrosoftEdge on windows (2655cebd07553ec23a2fc05e8413ad96)] -> id: input-firstname]
+INFO  2026-Apr-19 23:52:56  getMessage : - Fetching response message: 
+INFO  2026-Apr-19 23:52:56  tearDown : - Closing the browser
+INFO  2026-Apr-19 23:53:21  initDriver : - Running on OS: windows
+INFO  2026-Apr-19 23:53:21  initDriver : - Running on OS: windows
+INFO  2026-Apr-19 23:53:21  initDriver : - Launching browser: chrome
+INFO  2026-Apr-19 23:53:21  initDriver : - Running on OS: windows
+INFO  2026-Apr-19 23:53:21  initDriver : - Launching browser: edge
+INFO  2026-Apr-19 23:53:21  initDriver : - Launching browser: firefox
+INFO  2026-Apr-19 23:53:28  setUpBrowser : - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-19 23:53:28  verifyAccountRegistration : - Test case: Register to account as a new user! 
+INFO  2026-Apr-19 23:53:29  verifyAccountRegistration : - Navigated to Home page: 
+INFO  2026-Apr-19 23:53:29  setUpBrowser : - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-19 23:53:29  verifyAccountRegistration : - Test case: Register to account as a new user! 
+INFO  2026-Apr-19 23:53:29  verifyAccountRegistration : - Navigated to Home page: 
+INFO  2026-Apr-19 23:53:29  clickOnMyAccount : - Click MyAccount: [[ChromeDriver: chrome on windows (080dcd8fbe64cf89f146464ae7895339)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-19 23:53:30  clickOnMyAccount : - Click MyAccount: [[EdgeDriver: MicrosoftEdge on windows (8d2516b2868d36722265d1cbe4ed8bf9)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-19 23:53:30  clickOnRegisterLink : - Click Register link: [[ChromeDriver: chrome on windows (080dcd8fbe64cf89f146464ae7895339)] -> xpath: //a[normalize-space() = 'Register']]
+INFO  2026-Apr-19 23:53:31  clickOnRegisterLink : - Click Register link: [[EdgeDriver: MicrosoftEdge on windows (8d2516b2868d36722265d1cbe4ed8bf9)] -> xpath: //a[normalize-space() = 'Register']]
+INFO  2026-Apr-19 23:53:32  verifyAccountRegistration : - Navigated to Account Register Page:
+INFO  2026-Apr-19 23:53:33  setFirstName : - Entered FirstName: [[ChromeDriver: chrome on windows (080dcd8fbe64cf89f146464ae7895339)] -> id: input-firstname]
+INFO  2026-Apr-19 23:53:36  verifyAccountRegistration : - Navigated to Account Register Page:
+INFO  2026-Apr-19 23:53:36  setLastName : - Entered LastName: [[ChromeDriver: chrome on windows (080dcd8fbe64cf89f146464ae7895339)] -> name: lastname]
+INFO  2026-Apr-19 23:53:39  setUpBrowser : - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-19 23:53:39  verifyAccountRegistration : - Test case: Register to account as a new user! 
+INFO  2026-Apr-19 23:53:39  verifyAccountRegistration : - Navigated to Home page: 
+INFO  2026-Apr-19 23:53:39  clickOnMyAccount : - Click MyAccount: [[FirefoxDriver: firefox on windows (486cfa86-2b6b-4e39-abb7-ba34ceb14195)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-19 23:53:39  clickOnRegisterLink : - Click Register link: [[FirefoxDriver: firefox on windows (486cfa86-2b6b-4e39-abb7-ba34ceb14195)] -> xpath: //a[normalize-space() = 'Register']]
+INFO  2026-Apr-19 23:53:40  verifyAccountRegistration : - Navigated to Account Register Page:
+INFO  2026-Apr-19 23:53:40  setFirstName : - Entered FirstName: [[FirefoxDriver: firefox on windows (486cfa86-2b6b-4e39-abb7-ba34ceb14195)] -> id: input-firstname]
+INFO  2026-Apr-19 23:53:40  setLastName : - Entered LastName: [[FirefoxDriver: firefox on windows (486cfa86-2b6b-4e39-abb7-ba34ceb14195)] -> name: lastname]
+INFO  2026-Apr-19 23:53:40  setEmail : - Entered email: [[FirefoxDriver: firefox on windows (486cfa86-2b6b-4e39-abb7-ba34ceb14195)] -> id: input-email]
+INFO  2026-Apr-19 23:53:40  setTelephoneNumber : - Entered telephoneNumber: [[FirefoxDriver: firefox on windows (486cfa86-2b6b-4e39-abb7-ba34ceb14195)] -> xpath: //input[@type= 'tel']]
+INFO  2026-Apr-19 23:53:40  setPassword : - Entered password: [[FirefoxDriver: firefox on windows (486cfa86-2b6b-4e39-abb7-ba34ceb14195)] -> xpath: //input[@placeholder= 'Password']]
+INFO  2026-Apr-19 23:53:41  setPasswordConfirm : - Entered passwordConfirm: [[FirefoxDriver: firefox on windows (486cfa86-2b6b-4e39-abb7-ba34ceb14195)] -> css selector: input#input-confirm]
+INFO  2026-Apr-19 23:53:41  selectPrivacyPolicy : - Checked Privacy policy: [[FirefoxDriver: firefox on windows (486cfa86-2b6b-4e39-abb7-ba34ceb14195)] -> id: input-firstname]
+INFO  2026-Apr-19 23:53:42  clickContinue : - Click Continue button: [[FirefoxDriver: firefox on windows (486cfa86-2b6b-4e39-abb7-ba34ceb14195)] -> id: input-firstname]
+INFO  2026-Apr-19 23:53:42  getMessage : - Fetching response message: 
+INFO  2026-Apr-19 23:53:42  tearDown : - Closing the browser
+INFO  2026-Apr-19 23:53:42  setFirstName : - Entered FirstName: [[EdgeDriver: MicrosoftEdge on windows (8d2516b2868d36722265d1cbe4ed8bf9)] -> id: input-firstname]
+INFO  2026-Apr-19 23:53:42  setEmail : - Entered email: [[ChromeDriver: chrome on windows (080dcd8fbe64cf89f146464ae7895339)] -> id: input-email]
+INFO  2026-Apr-19 23:53:45  setTelephoneNumber : - Entered telephoneNumber: [[ChromeDriver: chrome on windows (080dcd8fbe64cf89f146464ae7895339)] -> xpath: //input[@type= 'tel']]
+INFO  2026-Apr-19 23:53:45  setLastName : - Entered LastName: [[EdgeDriver: MicrosoftEdge on windows (8d2516b2868d36722265d1cbe4ed8bf9)] -> name: lastname]
+INFO  2026-Apr-19 23:53:46  setPassword : - Entered password: [[ChromeDriver: chrome on windows (080dcd8fbe64cf89f146464ae7895339)] -> xpath: //input[@placeholder= 'Password']]
+INFO  2026-Apr-19 23:53:46  setEmail : - Entered email: [[EdgeDriver: MicrosoftEdge on windows (8d2516b2868d36722265d1cbe4ed8bf9)] -> id: input-email]
+INFO  2026-Apr-19 23:53:46  setPasswordConfirm : - Entered passwordConfirm: [[ChromeDriver: chrome on windows (080dcd8fbe64cf89f146464ae7895339)] -> css selector: input#input-confirm]
+INFO  2026-Apr-19 23:53:47  setTelephoneNumber : - Entered telephoneNumber: [[EdgeDriver: MicrosoftEdge on windows (8d2516b2868d36722265d1cbe4ed8bf9)] -> xpath: //input[@type= 'tel']]
+INFO  2026-Apr-19 23:53:47  setPassword : - Entered password: [[EdgeDriver: MicrosoftEdge on windows (8d2516b2868d36722265d1cbe4ed8bf9)] -> xpath: //input[@placeholder= 'Password']]
+INFO  2026-Apr-19 23:53:47  selectPrivacyPolicy : - Checked Privacy policy: [[ChromeDriver: chrome on windows (080dcd8fbe64cf89f146464ae7895339)] -> id: input-firstname]
+INFO  2026-Apr-19 23:53:48  setPasswordConfirm : - Entered passwordConfirm: [[EdgeDriver: MicrosoftEdge on windows (8d2516b2868d36722265d1cbe4ed8bf9)] -> css selector: input#input-confirm]
+INFO  2026-Apr-19 23:53:48  clickContinue : - Click Continue button: [[ChromeDriver: chrome on windows (080dcd8fbe64cf89f146464ae7895339)] -> id: input-firstname]
+INFO  2026-Apr-19 23:53:48  getMessage : - Fetching response message: 
+INFO  2026-Apr-19 23:53:49  tearDown : - Closing the browser
+INFO  2026-Apr-19 23:53:49  selectPrivacyPolicy : - Checked Privacy policy: [[EdgeDriver: MicrosoftEdge on windows (8d2516b2868d36722265d1cbe4ed8bf9)] -> id: input-firstname]
+INFO  2026-Apr-19 23:53:49  clickContinue : - Click Continue button: [[EdgeDriver: MicrosoftEdge on windows (8d2516b2868d36722265d1cbe4ed8bf9)] -> id: input-firstname]
+INFO  2026-Apr-19 23:53:50  getMessage : - Fetching response message: 
+INFO  2026-Apr-19 23:53:50  tearDown : - Closing the browser
+INFO  2026-Apr-20 10:46:51  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 10:46:51  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 10:46:51  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 10:46:51  initDriver : - Launching browser: firefox
+INFO  2026-Apr-20 10:46:51  initDriver : - Launching browser: edge
+INFO  2026-Apr-20 10:46:51  initDriver : - Launching browser: chrome
+INFO  2026-Apr-20 10:48:33  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 10:48:33  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 10:48:33  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 10:48:33  initDriver : - Launching browser: firefox
+INFO  2026-Apr-20 10:48:33  initDriver : - Launching browser: edge
+INFO  2026-Apr-20 10:48:33  initDriver : - Launching browser: chrome
+INFO  2026-Apr-20 10:49:28  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 10:49:28  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 10:49:28  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 10:49:28  initDriver : - Launching browser: chrome
+INFO  2026-Apr-20 10:49:28  initDriver : - Launching browser: edge
+INFO  2026-Apr-20 10:49:28  initDriver : - Launching browser: firefox
+INFO  2026-Apr-20 11:10:54  <init> : - Initializing browser: 
+INFO  2026-Apr-20 11:10:54  initDriver : - Running on OS: null
+INFO  2026-Apr-20 11:10:54  initDriver : - Launching browser: null
+INFO  2026-Apr-20 11:15:36  <init> : - OS: windows
+INFO  2026-Apr-20 11:15:36  <init> : - Browser: chrome
+INFO  2026-Apr-20 11:15:36  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 11:15:36  initDriver : - Launching browser: chrome
+INFO  2026-Apr-20 11:15:41  setUpBrowser : - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-20 11:15:41  verifyAccountRegistration : - Test case: Register to account as a new user! 
+INFO  2026-Apr-20 11:15:41  verifyAccountRegistration : - Navigated to Home page: 
+INFO  2026-Apr-20 11:15:41  clickOnMyAccount : - Click MyAccount: [[ChromeDriver: chrome on windows (cb12f533616e7033d0d51de9e3442b33)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-20 11:15:41  clickOnRegisterLink : - Click Register link: [[ChromeDriver: chrome on windows (cb12f533616e7033d0d51de9e3442b33)] -> xpath: //a[normalize-space() = 'Register']]
+INFO  2026-Apr-20 11:15:42  verifyAccountRegistration : - Navigated to Account Register Page:
+INFO  2026-Apr-20 11:15:42  setFirstName : - Entered FirstName: [[ChromeDriver: chrome on windows (cb12f533616e7033d0d51de9e3442b33)] -> id: input-firstname]
+INFO  2026-Apr-20 11:15:42  setLastName : - Entered LastName: [[ChromeDriver: chrome on windows (cb12f533616e7033d0d51de9e3442b33)] -> name: lastname]
+INFO  2026-Apr-20 11:15:43  setEmail : - Entered email: [[ChromeDriver: chrome on windows (cb12f533616e7033d0d51de9e3442b33)] -> id: input-email]
+INFO  2026-Apr-20 11:15:43  setTelephoneNumber : - Entered telephoneNumber: [[ChromeDriver: chrome on windows (cb12f533616e7033d0d51de9e3442b33)] -> xpath: //input[@type= 'tel']]
+INFO  2026-Apr-20 11:15:43  setPassword : - Entered password: [[ChromeDriver: chrome on windows (cb12f533616e7033d0d51de9e3442b33)] -> xpath: //input[@placeholder= 'Password']]
+INFO  2026-Apr-20 11:15:43  setPasswordConfirm : - Entered passwordConfirm: [[ChromeDriver: chrome on windows (cb12f533616e7033d0d51de9e3442b33)] -> css selector: input#input-confirm]
+INFO  2026-Apr-20 11:15:43  selectPrivacyPolicy : - Checked Privacy policy: [[ChromeDriver: chrome on windows (cb12f533616e7033d0d51de9e3442b33)] -> id: input-firstname]
+INFO  2026-Apr-20 11:16:00  clickContinue : - Click Continue button: Proxy element for: DefaultElementLocator 'By.id: input-firstname'
+INFO  2026-Apr-20 11:16:00  getMessage : - Fetching response message: 
+INFO  2026-Apr-20 11:16:00  verifyAccountRegistration : - Created new account with username: Tim2
+INFO  2026-Apr-20 11:16:00  tearDown : - Closing the browser
+INFO  2026-Apr-20 11:29:53  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 11:29:53  initDriver : - Launching browser: chrome
+INFO  2026-Apr-20 11:29:58  setUpBrowser : - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-20 11:29:58  verifyAccountRegistration : - Test case: Register to account as a new user! 
+INFO  2026-Apr-20 11:29:58  verifyAccountRegistration : - Navigated to Home page: 
+INFO  2026-Apr-20 11:29:58  clickOnMyAccount : - Click MyAccount: [[ChromeDriver: chrome on windows (9cdc8440e4898a3bf368ef7fbdc3d7fc)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-20 11:29:58  clickOnRegisterLink : - Click Register link: [[ChromeDriver: chrome on windows (9cdc8440e4898a3bf368ef7fbdc3d7fc)] -> xpath: //a[normalize-space() = 'Register']]
+INFO  2026-Apr-20 11:29:58  verifyAccountRegistration : - Navigated to Account Register Page:
+INFO  2026-Apr-20 11:29:59  setFirstName : - Entered FirstName: [[ChromeDriver: chrome on windows (9cdc8440e4898a3bf368ef7fbdc3d7fc)] -> id: input-firstname]
+INFO  2026-Apr-20 11:29:59  setLastName : - Entered LastName: [[ChromeDriver: chrome on windows (9cdc8440e4898a3bf368ef7fbdc3d7fc)] -> name: lastname]
+INFO  2026-Apr-20 11:29:59  setEmail : - Entered email: [[ChromeDriver: chrome on windows (9cdc8440e4898a3bf368ef7fbdc3d7fc)] -> id: input-email]
+INFO  2026-Apr-20 11:29:59  setTelephoneNumber : - Entered telephoneNumber: [[ChromeDriver: chrome on windows (9cdc8440e4898a3bf368ef7fbdc3d7fc)] -> xpath: //input[@type= 'tel']]
+INFO  2026-Apr-20 11:29:59  setPassword : - Entered password: [[ChromeDriver: chrome on windows (9cdc8440e4898a3bf368ef7fbdc3d7fc)] -> xpath: //input[@placeholder= 'Password']]
+INFO  2026-Apr-20 11:29:59  setPasswordConfirm : - Entered passwordConfirm: [[ChromeDriver: chrome on windows (9cdc8440e4898a3bf368ef7fbdc3d7fc)] -> css selector: input#input-confirm]
+INFO  2026-Apr-20 11:30:00  selectPrivacyPolicy : - Checked Privacy policy: [[ChromeDriver: chrome on windows (9cdc8440e4898a3bf368ef7fbdc3d7fc)] -> id: input-firstname]
+INFO  2026-Apr-20 11:30:17  clickContinue : - Click Continue button: Proxy element for: DefaultElementLocator 'By.id: input-firstname'
+INFO  2026-Apr-20 11:30:17  getMessage : - Fetching response message: 
+INFO  2026-Apr-20 11:30:18  verifyAccountRegistration : - Created new account with username: Tim2
+INFO  2026-Apr-20 11:30:18  tearDown : - Closing the browser
