@@ -417,3 +417,42 @@ INFO  2026-Apr-20 18:20:46  setPassword : - Password: AdminOpenCart@123
 INFO  2026-Apr-20 18:20:46  clickLogin : - click login button [[ChromeDriver: chrome on windows (3cb6c0521fae1e88d1e73c69d1f0de8f)] -> xpath: //input[@type='submit']]
 INFO  2026-Apr-20 18:20:46  getErrorMessage : - Fetching response message: 
 INFO  2026-Apr-20 18:20:46  tearDown : - Closing the browser
+INFO  2026-Apr-20 19:00:45  initDriver : - Running on OS: windows
+INFO  2026-Apr-20 19:00:45  initDriver : - Launching browser: chrome
+INFO  2026-Apr-20 19:00:50  setUpBrowser : - Navigated to url: https://tutorialsninja.com/demo/index.php
+INFO  2026-Apr-20 19:00:52  verifyLoginWithInvalidScenarios : - Login test case: 
+INFO  2026-Apr-20 19:00:52  clickOnMyAccount : - Click MyAccount: [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-20 19:00:52  clickLogin : - Click on Login : [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //a[text()='Login']]
+INFO  2026-Apr-20 19:00:53  verifyLoginWithInvalidScenarios : - logging into account: 
+INFO  2026-Apr-20 19:00:53  setEmail : - username(email): adminopencart@gmail.com
+INFO  2026-Apr-20 19:00:53  setPassword : - Password: Admin@123
+INFO  2026-Apr-20 19:00:53  clickLogin : - click login button [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //input[@type='submit']]
+INFO  2026-Apr-20 19:00:54  isMyAccountHeaderPresent : - My account header present: 
+INFO  2026-Apr-20 19:00:54  verifyLoginWithInvalidScenarios : - Logged in successfully: 
+INFO  2026-Apr-20 19:00:54  clickLogOut : - Logout from My Account page: 
+INFO  2026-Apr-20 19:00:55  verifyLoginWithInvalidScenarios : - Login test case: 
+INFO  2026-Apr-20 19:00:55  clickOnMyAccount : - Click MyAccount: [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-20 19:00:55  clickLogin : - Click on Login : [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //a[text()='Login']]
+INFO  2026-Apr-20 19:00:55  verifyLoginWithInvalidScenarios : - logging into account: 
+INFO  2026-Apr-20 19:00:55  setEmail : - username(email): admincart@gmail.com
+INFO  2026-Apr-20 19:00:55  setPassword : - Password: Admin@123
+INFO  2026-Apr-20 19:00:56  clickLogin : - click login button [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //input[@type='submit']]
+INFO  2026-Apr-20 19:00:56  getErrorMessage : - Fetching response message: 
+INFO  2026-Apr-20 19:00:56  verifyLoginWithInvalidScenarios : - Login test case: 
+INFO  2026-Apr-20 19:00:56  clickOnMyAccount : - Click MyAccount: [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-20 19:00:56  clickLogin : - Click on Login : [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //a[text()='Login']]
+INFO  2026-Apr-20 19:00:57  verifyLoginWithInvalidScenarios : - logging into account: 
+INFO  2026-Apr-20 19:00:57  setEmail : - username(email): adminopencart@gmail.com
+INFO  2026-Apr-20 19:00:57  setPassword : - Password: AdminOpenCart@123
+INFO  2026-Apr-20 19:00:57  clickLogin : - click login button [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //input[@type='submit']]
+INFO  2026-Apr-20 19:00:58  getErrorMessage : - Fetching response message: 
+INFO  2026-Apr-20 19:00:58  verifyLoginWithInvalidScenarios : - Logged in failed : Warning: No match for E-Mail Address and/or Password.
+INFO  2026-Apr-20 19:00:58  verifyLoginWithInvalidScenarios : - Login test case: 
+INFO  2026-Apr-20 19:00:58  clickOnMyAccount : - Click MyAccount: [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //span[text() = 'My Account']]
+INFO  2026-Apr-20 19:00:58  clickLogin : - Click on Login : [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //a[text()='Login']]
+INFO  2026-Apr-20 19:00:58  verifyLoginWithInvalidScenarios : - logging into account: 
+INFO  2026-Apr-20 19:00:58  setEmail : - username(email): admincart@gmail.com
+INFO  2026-Apr-20 19:00:58  setPassword : - Password: AdminOpenCart@123
+INFO  2026-Apr-20 19:00:59  clickLogin : - click login button [[ChromeDriver: chrome on windows (c160e81ab5e6a36118e08b68c9d0a96f)] -> xpath: //input[@type='submit']]
+INFO  2026-Apr-20 19:00:59  getErrorMessage : - Fetching response message: 
+INFO  2026-Apr-20 19:00:59  tearDown : - Closing the browser

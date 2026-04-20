@@ -1,5 +1,6 @@
-package org.opencart.utilities;
+package org.opencart.dataproviders;
 
+import org.opencart.utilities.ExcelHelper;
 import org.testng.annotations.DataProvider;
 import java.io.IOException;
 import static org.opencart.constants.TestConstant.SHEET_LOGIN_CREDENTIALS;

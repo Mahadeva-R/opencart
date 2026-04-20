@@ -4,7 +4,7 @@ import org.opencart.pageobjects.HomePage;
 import org.opencart.pageobjects.LogInPage;
 import org.opencart.pageobjects.MyAccountPage;
 import org.opencart.testbase.OpenCartTestBase;
-import org.opencart.utilities.DataProvidersUtility;
+import org.opencart.dataproviders.DataProvidersUtility;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
