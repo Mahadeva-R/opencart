@@ -12,7 +12,7 @@ import static org.opencart.constants.TestConstant.EXPECTED_MY_ACCOUNT_PAGE_TITLE
 
 public class LogInTest extends OpenCartTestBase {
 
-    @Test
+    @Test(groups = {"Sanity", "Master"})
     public void verifyLoginWithValidCredential() {
         log.info("Login test case: ");
 
@@ -23,7 +23,7 @@ public class LogInTest extends OpenCartTestBase {
         log.info("logging into account: ");
         try {
             LogInPage logInPage = new LogInPage(driver);
-            logInPage.setEmail(profile.getLoginEmailId());
+            logInPage.setEmail(profile.getLoginEmailId()+"fail");
             logInPage.setPassword(profile.getPassword());
             logInPage.clickLogin();
         } catch (Exception e) {
@@ -43,7 +43,7 @@ public class LogInTest extends OpenCartTestBase {
         myAccountPage.clickLogOut();
     }
 
-    @Test(dataProvider = "LoginData", dataProviderClass = DataProvidersUtility.class)
+    @Test(dataProvider = "LoginData", dataProviderClass = DataProvidersUtility.class, groups = {"DataDriven", "Master"})
     public void verifyLoginWithInvalidScenarios(String emailId, String password, String expectedMessage) {
         log.info("Login test case: ");
         try {

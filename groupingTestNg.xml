@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="opencart grouping Test Suite">
+    <groups>
+        <run>
+            <include name="Master"/>
+<!--            <include name="Sanity"/>-->
+<!--            <include name="Regression"/>-->
+        </run>
+    </groups>
+    <test name="AccountRegisterTest.java">
+        <classes>
+            <class name="org.opencart.testcases.AccountRegisterTest"/>
+            <class name="org.opencart.testcases.LogInTest"/>
+        </classes>
+    </test>
+</suite>

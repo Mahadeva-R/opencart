@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class AccountRegisterTest extends OpenCartTestBase {
 
-    @Test
+    @Test(groups = {"Regression", "Master"})
     public void verifyAccountRegistration() {
         log.info("Test case: Register to account as a new user! ");
 

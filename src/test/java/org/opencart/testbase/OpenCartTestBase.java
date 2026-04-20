@@ -2,23 +2,27 @@ package org.opencart.testbase;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.Logger;
+import org.opencart.listeners.ExtentReportManager;
+import org.opencart.listeners.TestListener;
 import org.opencart.utilities.DriverFactory;
 import org.opencart.utilities.LoggerSingleton;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import static org.opencart.testbase.Profile.getProfileInstance;
 
+@Listeners(ExtentReportManager.class)
 public class OpenCartTestBase {
 
     protected WebDriver driver;
     protected Logger log = LoggerSingleton.getLoggerInstance();
     protected Profile profile = getProfileInstance();
 
-    @BeforeClass
+    @BeforeClass(groups = {"Master", "Sanity", "Regression"})
     @Parameters({"os", "browser"})
     public void setUpBrowser(@Optional String os, @Optional String browser) {
 
@@ -38,7 +42,7 @@ public class OpenCartTestBase {
         log.info("Navigated to url: " + driver.getCurrentUrl());
     }
 
-    @AfterClass
+    @AfterClass(groups = {"Master", "Sanity", "Regression"})
     public void tearDown() {
         log.info("Closing the browser");
         DriverFactory.quitDriver();
